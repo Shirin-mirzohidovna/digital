@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header
+{
+    width: 100%;
+    height: 100vh;
+    background: url(./Rectangle1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-content{
+    padding-top: 20vh;
+}
+
+.btn1{
+    width: 280px;
+    height: 60px;
+    padding: 8px 15px;
+    margin-top: 25px;
+    border: 2px solid #000;
+    background: none;
+    color: #000;
+    font-size: 13px;
+}
+.offcanvas-body .navbar-nav .nav-item a{
+    color: #818181 !important;
+}
+.offcanvas-body .navbar-nav .nav-item::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+.offcanvas-body .navbar-nav .nav-item:hover::after{
+    width: 100%;
+}
+.section1{
+    width: 100%;
+    display: flex;
+}
+.section1-right{
+    width: 50%;
+    height: 70vh;
+    background: url(./Rectangle2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1-left{
+    width: 50%;
+    height: 70vh;
+    text-align: center;
+    padding-top: 15vh;
+}
+.section1-left .container p{
+    font-size: 10px;
+    text-align: right;
+    
+}
+.section1-left .container .row .col-6 img{
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+}
+.container3{
+    width: 1200px;
+    height: 770px;
+    margin: 0 auto;
+    background: url(./Rectangle3.jpg);
+}
+.section3{
+    width: 100%;
+}
+.section3 .container{
+    padding-bottom: 50px;
+}
+.icon{
+    width: 215px;
+    height: 200px;
+    border-right: 0.5px solid #ececec;
+    border-bottom: 0.5px solid #ececec;
+}
+.icon2 {
+    width: 215px;
+    height: 200px;
+    border-bottom: 0.5px solid #ececec;
+}
+.icon3{
+    width: 215px;
+    height: 200px;
+    border-right: 0.5px solid #ececec;
+}
+.icon4{
+    width: 215px;
+    height: 200px;
+}
+
+.btn-icon{
+    padding: 12px 20px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.section4{
+    width: 100%;
+    height: 80vh;
+    background: url(./Rectangle4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section4 .container {
+    padding: 200px 0;
+}
+
+
+.section5-right{
+    width: 50%;
+    height: 100vh;
+    background: url(./Rectangle5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section5-left{
+    width: 50%;
+    height: 100vh;
+    background-color: #000201;
+}
+.box{
+    border-bottom: 2px solid #ffff;
+    width: 400px;
+    margin: 20px auto;
+}
+.box1 {
+    border-bottom: 2px solid #ffff;
+    width: 400px;
+    height: 130px;
+    margin: 20px auto;
+}
+.box input{
+    margin: 20px auto;
+    width: 400px;
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+}
+.box1 input {
+    margin: 20px auto;
+    width: 400px;
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+}
+.btn2{
+    width: 180px;
+    height: 40px;
+    padding: 8px 10px;
+    margin-top: 25px;
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+
+.card{
+    width: 194px;
+    height: 284px;
+    margin-right: 8px;
+    border: 1px solid #fff !important;
+    color: #fff;
+    background-color: #000201 !important;
+   position: relative;
+}
+.card2 {
+    width: 194px;
+    height: 284px;
+    margin-right: 8px;
+    border: 1px solid #fff !important;
+    color: #fff;
+    background-color: #61B3C9 !important;
+   position: relative;
+}
+
+.span{
+    width: 100px;
+    height: 100px;
+    background-color: #000201 !important;
+    border-bottom: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -15%;
+    left: 25%;
+   
+}
+
+.context{
+    padding-top: 80px;
+    font-size: 14px;
+}
+
+footer{
+    background: #17181C;
+    color: #fff;
+}
+footer .container .row .col-3{
+    padding: 35px 0 !important;
+}
+footer .container .row .col-3 p{
+    padding: 25px 0;
+}
+
+
+.chiziq{
+    height: 1px;
+    margin: 35px 0;
+    background: #fff;
+}
